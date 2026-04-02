@@ -1,6 +1,6 @@
 import { Button } from "@/components/Button";
-import { ArrowRight, Github, Linkedin, ChevronDown} from "lucide-react";
-import { AnimatedBorderButton } from "@/components/AnimatedBroderButton";
+import { ArrowRight, Github, Linkedin, ChevronDown, Download} from "lucide-react";
+import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 
 const skills = [
   "React",
@@ -69,7 +69,7 @@ export const Hero = () => {
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
                 Hi, I'm Murugan Mariappan - a software engineer specializing in
-                React, Vue.js, Java and TypeScript. I build scalable, performant
+                React, Vue.js, TypeScript and Java. I build scalable, performant
                 web applications that user-friendly.
               </p>
             </div>
@@ -77,7 +77,10 @@ export const Hero = () => {
               <Button size="lg">
                 Contact Me <ArrowRight className="w-5 h-7"/>
               </Button>
-              <AnimatedBorderButton />
+              <AnimatedBorderButton>
+                <Download className="w-5 h-5"/>
+                Download CV
+              </AnimatedBorderButton>
             </div>
             <div className="flex items-center gap-4 animate-fade-in aimation-delay-400">
               <span className="text-sm text-muted-foreground">Follow me:</span>
