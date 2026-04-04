@@ -5,7 +5,7 @@ const projects = [
     title: "World Helath Organization",
     description:
       "A website for the World Health Organization to provide information about health and wellness.",
-    image: "src/assets/Project/WHO_img.png",
+    image: "/Project/WHO_img.png",
     tags: ["Vue.js", "Sass", "Vuex"],
     link: "https://whoacademy.org/dashboard",
     github: "#",
@@ -14,7 +14,7 @@ const projects = [
     title: "E-Commerce Platform",
     description:
       "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
-    image: "src/assets/Project/E-Commerce_img.png",
+    image: "/Project/E-commerce_img.png",
     tags: ["Next.js", "Stripe", "PostgreSQL", "Tailwind"],
     link: "#",
     github: "#",
@@ -23,7 +23,7 @@ const projects = [
     title: "Protfolio Website",
     description:
       "A personal portfolio website to showcase my projects, skills, and experience.",
-    image: "src/assets/Project/Portfolio_img.png",
+    image: "/Project/Portfolio_img.png",
     tags: ["React", "TailwindCss", "TypeScript"],
     link: "#",
     github: "#",

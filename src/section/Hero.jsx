@@ -24,7 +24,7 @@ export const Hero = () => {
     <section className="relative min-h-screen flex items-center overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="src/assets/hero-bg.jpg"
+          src="/hero-bg.jpg"
           alt="Hero image"
           className="w-full h-full object-cover opacity-40"
         />
@@ -113,7 +113,7 @@ export const Hero = () => {
               />
               <div className="relative glass rounded-3xl p-2 glow-border">
                 <img 
-                src="src/assets/Profile_img.jpeg" 
+                src="/Profile_img.jpeg" 
                 alt="Profile-image" 
                 className="w-full aspect-[4/5] object-cover rounded-2xl"
                 />
