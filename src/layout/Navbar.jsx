@@ -67,7 +67,11 @@ export const Navbar = () => {
                 {link.label}
               </a>  
             ))}
-            <Button onClick={()=>setIsMenuOpen(false)}>Contact Me</Button>
+            <a href="#contact">
+              <Button className="cursor-pointer" onClick={()=>setIsMenuOpen(false)}>
+                Contact Me
+              </Button>
+            </a>
           </div>
         </div> 
       )}

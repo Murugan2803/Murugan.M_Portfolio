@@ -7,7 +7,7 @@ export const AnimatedBorderButton = ({ children }) => {
         focus-visible:ring-primary focus-visible:ring-offset-2 
         disabled:opacity-50 disabled:cursor-not-allowed group 
         px-8 py-4 text-lg font-medium rounded-full overflow-visible 
-        animated-border"
+        animated-border cursor-pointer"
     >
       <svg
         className="absolute left-0 top-0 w-full h-full pointer-events-none download-cv-border"
