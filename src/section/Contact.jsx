@@ -159,7 +159,7 @@ export const Contact = () => {
                 ) : (
                     <>
                     Send Message
-                    <Send  className="w-5 h-5"/>
+                    <Send  className="w-5 h-8"/>
                     </>
                 )}
               </Button>
