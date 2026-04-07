@@ -9,7 +9,7 @@ const experience = [
     current: true,
   },
   {
-    period: "2025 — 2025",
+    period: "2024 — 2026",
     role: "Frontend Developer",
     company: "MavePizon Technologies",
     description:
